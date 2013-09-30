@@ -25,6 +25,8 @@
 #include <framework/luaengine/luainterface.h>
 #include <client/client.h>
 
+#define VERSION "1.0"
+
 int main(int argc, const char* argv[])
 {
     std::vector<std::string> args(argv, argv + argc);

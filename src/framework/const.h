@@ -294,6 +294,10 @@ namespace Fw
         DatabaseNone = 0,
         DatabaseMySQL
     };
+#else
+    enum DatabaseEngine {
+        DatabaseNone = 0,
+    };
 #endif
 }
 
